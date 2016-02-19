@@ -51,7 +51,7 @@ public partial class _Default : System.Web.UI.Page
     protected void btnLogin_Click(object sender, EventArgs e)
     {
         
-       /* try
+        try
         {
             //Session["WebApiUrl"] = "http://aspnet-example-webapi.cloudapps.click2cloud.net/".ToString();
             Session["WebApiUrl"] = "http://aspnet-example-apiproj1.cloudapps.click2cloud.net/".ToString();
@@ -86,7 +86,7 @@ public partial class _Default : System.Web.UI.Page
         catch (Exception ex)
         {
             FailureText.Text = "Invalid Login Name/Password.";
-        }*/
+        }
 
     }
     #endregion
